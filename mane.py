@@ -11,3 +11,6 @@ def test_function(x):
         print(x)
         test_function(x+1)
 test_function(1)
+test_function(2)
+test_function(3)
+
