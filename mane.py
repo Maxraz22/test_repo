@@ -7,3 +7,12 @@ def mane_function(n):
 print(mane_function(7))
 print(mane_function(8))
 print(mane_function(9))
+
+def test_function(x):
+    if x<5:
+        print(x)
+        test_function(x+1)
+test_function(1)
+test_function(2)
+test_function(3)
+
