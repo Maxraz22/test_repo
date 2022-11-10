@@ -16,3 +16,5 @@ test_function(1)
 test_function(2)
 test_function(3)
 
+print("The end")
+

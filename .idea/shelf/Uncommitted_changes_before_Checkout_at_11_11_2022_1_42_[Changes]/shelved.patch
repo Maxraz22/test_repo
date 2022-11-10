@@ -1,0 +1,16 @@
+Index: mane.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>def mane_function(n):\r\n    if n==1:\r\n        return 0\r\n    if n==2:\r\n        return 1\r\n    return mane_function(n-1)+mane_function(n-2)\r\nprint(mane_function(7))\r\nprint(mane_function(8))\r\nprint(mane_function(9))\r\n\r\ndef test_function(x):\r\n    if x<5:\r\n        print(x)\r\n        test_function(x+1)\r\ntest_function(1)\r\ntest_function(2)\r\ntest_function(3)\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/mane.py b/mane.py
+--- a/mane.py	(revision 255684a0fb7feb4ef2364a488d5fefa71cf2ae20)
++++ b/mane.py	(date 1668123620755)
+@@ -16,3 +16,5 @@
+ test_function(2)
+ test_function(3)
+ 
++
++
