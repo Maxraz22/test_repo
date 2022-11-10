@@ -4,6 +4,4 @@ def mane_function(y):
     return mane_function(y-1)*y
 print(mane_function(5))
 print(mane_function(6))
-print(mane_function(7))
-print(mane_function(8))
 
